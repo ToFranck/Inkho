@@ -1,0 +1,18 @@
+.feature-v7 {}
+
+.feature-v7__item {
+  figure {
+    flex-shrink: 0;
+  }
+
+  img {
+    display: block;
+    width: 64px;
+  }
+}
+
+@include breakpoint(md) {
+  .feature-v7__item img {
+    width: 128px;
+  }
+}
