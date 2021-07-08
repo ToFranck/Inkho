@@ -102,27 +102,53 @@ a{
 /* ----------------------Mdp oublier------------------- */
 
 
-.form h2 {
-  /* color: #32a3b1; */
-  font-weight: 500;
+.form2 {
+  position: relative;
+  width: 350px;
+  padding: 40px 40px 60px;
+  border-radius: 10px;
+  background: #ebf5fc;
+  text-align: center;
+  /* margin-top: 100px; */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  animation-name: app2;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  }
+  
+  @keyframes app2 {
+    from   { transform:translateY(-500px); opacity: 0; }
+    to     { transform:translateY(100px) ; opacity: 1; }
+    
+  }
+  @keyframes appReverse2 {
+    from   { transform:translateY(100px) ; opacity: 1; }
+    to     { transform:translateY(-500px); opacity: 0; }
+    
+  }
+  
+
+.form2 h2 {
+  
+  font-size: 20px;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  /* letter-spacing: 4px; */
   color:#9198e5;
 }
-.form2 .input {
+.form2 .input2 {
   margin-top: 40px;
   text-align: left;
 }
-.form2 .input .inputBox2 {
+.form2 .input2 .inputBox2 {
   margin-top: 20px;
 }
-.form2 .input .inputBox2 label {
+.form2 .input2 .inputBox2 label {
   display: block;
   color: #868686;
   margin-bottom: 5px;
   font-size: 18px;
 }
-.form2 .input .inputBox2 input {
+.form2 .input2 .inputBox2 input {
   width: 100%;
   height: 50px;
   
@@ -134,19 +160,30 @@ a{
   border-bottom:1px solid #9198e5;
 
 }
-.form2 .input .inputBox2 input[type="submit"] {
+.form2.input2 .inputBox2 input[type="submit"] {
   margin-top: 20px;
   box-shadow: 
     2px 2px 6px rgba(0, 0, 0, 0.1);
   border-bottom:none;
   
 }
-.form2 .input .inputBox2 input[type="submit"]:active {
+.form2 .input2 .inputBox2 input[type="submit"]:active {
   color: #9198e5;
   margin-top: 20px;
   box-shadow:  2px 2px 6px rgba(0, 0, 0, 0.1);
 }
-.form2 .input .inputBox2 input::placeholder {
+.form2 .input2 .inputBox2 input::placeholder {
   color: #bdcada;
   font-size: 18px;
 }
+#forget2 {
+  margin-top: 30px;
+  color: #555;
+}
+
+
+
+#valider2{
+  cursor: pointer
+}
+
