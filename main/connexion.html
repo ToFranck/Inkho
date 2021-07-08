@@ -6,8 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connexion | Inkho</title>
+
     <link id="codyframe" rel="stylesheet" href="assets/css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
   <link href="connexion.css" rel="stylesheet">
+
+  <script>
+
+        $(document).ready(function(){
+
+            $("a").click(function(){
+                console.log("coucou");
+                
+                $(".form").css("animation", "appReverse 2s forwards");
+
+            });
+            
+		
+            });
+
+  </script>
 </head>
 <body>
     <div class="form">
@@ -24,12 +44,21 @@
             </div>
 
             <div class="inputBox">
-                <input type="submit" value="Valider">
+                <input type="submit" value="Valider" id="valider">
             </div>
         </div>
 
-        <p class="forget">Mot de passe oublié? <a href="mdpoublie.html">Ici</a></p>
+        <p id="forget">Mot de passe oublié? <a href="#">Ici</a></p>
     </div> 
+
+
+    <div class="form2" >
+        <h2>Mot de passe oublie</h2>
+        <div class="inputBox2">
+            <label>Adresse mail</label>
+            <input type="text" placeholder="example@xyz.com">
+        </div>
+    </div>
     <script src="assets/js/scripts.js"></script>
 </body>
 </html>
