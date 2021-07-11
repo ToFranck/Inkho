@@ -46,7 +46,8 @@
 
 h1, h2, h3, h4 {
   font-weight: 700;
-  // font-family: 'Yomogi', cursive;
+  color: white;
+  font-family : 'Old Standard TT', serif ;
 }
 
 // --------------------------------
@@ -56,7 +57,9 @@ h1, h2, h3, h4 {
 // --------------------------------
 
 // link style
-a, .link {}
+a, .link {
+  font-family : 'Old Standard TT', serif ;
+}
 
 mark {
   background-color: alpha(var(--color-accent), 0.2);

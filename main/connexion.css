@@ -8,7 +8,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background:linear-gradient(#9198e5,#eeeaf1 ) no-repeat center center fixed ;
+  background:linear-gradient(#0e1461,#000000 ) no-repeat center center fixed ;
+  
 }
 .form {
   position: relative;
@@ -109,7 +110,7 @@ a{
   border-radius: 10px;
   background: #ebf5fc;
   text-align: center;
-  /* margin-top: 100px; */
+  
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
   animation-name: app2;
   animation-duration: 2s;
@@ -132,7 +133,7 @@ a{
   
   font-size: 20px;
   text-transform: uppercase;
-  /* letter-spacing: 4px; */
+  
   color:#9198e5;
 }
 .form2 .input2 {

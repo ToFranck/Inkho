@@ -2,8 +2,8 @@
 body{
     height: 100%;
     /*background:linear-gradient(#9198e5,#eeeaf1 ) no-repeat center center fixed ;*/
-    background:linear-gradient(#0e1461,#19002c ) no-repeat center center fixed ;
-    color: rgb(255, 255, 255);
+    background:linear-gradient(#0e1461,#000000 ) no-repeat center center fixed ;
+    color: rgb(253, 253, 253);
 }
 
     
@@ -13,12 +13,13 @@ h1{
     text-align: center; 
     padding-top: 20px;
     font-size: 60px;
-    color: rgb(255, 255, 255);
+    color: rgb(146, 180, 245);
     
 }
 
 #titre{
-    font-family: 'Yomogi', cursive;
+    font-family : 'Old Standard TT', serif ;
+    
     
 }
 /* Nav bar  */
@@ -35,15 +36,16 @@ h1{
 #main-menu .nav-bar li a {
     text-decoration: none;
     padding-left: 25px;
-    color: black;
+    color: rgb(255, 255, 255);
     /* text-shadow: 1px 1px 1px #eeeaf1; */
-    font-family: 'Yomogi', cursive;
+    font-family : 'Old Standard TT', serif ;
     
 }
 
 .nav-co{
     float: right;
     padding-top: 40px;
+    
 }
 
 /* Texte Info  */
