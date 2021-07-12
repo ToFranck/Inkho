@@ -3,25 +3,30 @@ body{
     height: 100%;
     /*background:linear-gradient(#9198e5,#eeeaf1 ) no-repeat center center fixed ;*/
     background:linear-gradient(#0e1461,#000000 ) no-repeat center center fixed ;
-    color: rgb(253, 253, 253);
+    
 }
 
     
 
 
-h1{
+#inkho{
     text-align: center; 
     padding-top: 20px;
     font-size: 60px;
     color: rgb(146, 180, 245);
+    font-family: 'Oswald', sans-serif;
     
 }
 
-#titre{
-    font-family : 'Old Standard TT', serif ;
-    
+.titre{
+    padding: 50px 200px 20px ;
+    font-size: 60px;
+    color: rgb(146, 180, 245);
+    font-family: 'Oswald', sans-serif;
     
 }
+
+
 /* Nav bar  */
 
 #main-menu .nav-bar { 
@@ -34,11 +39,11 @@ h1{
 }
 
 #main-menu .nav-bar li a {
-    text-decoration: none;
+    /* text-decoration: none; */
     padding-left: 25px;
     color: rgb(255, 255, 255);
     /* text-shadow: 1px 1px 1px #eeeaf1; */
-    font-family : 'Old Standard TT', serif ;
+    
     
 }
 
@@ -52,27 +57,37 @@ h1{
 
 #txt-intro{
     text-align:justify; 
-    padding-top: 100px; 
+    padding: 100px 250px 0px 250px ;
+    /* padding-top: 100px; 
     padding-left: 250px; 
-    padding-right: 250px;
+    padding-right: 250px; */
 
     
 }
 
 .txt-exp{
     text-align:justify; 
-    padding-top: 150px; 
+    /* padding-top: 150px; 
     padding-left: 250px; 
-    padding-right: 250px;
+    padding-right: 250px; */
+    padding: 50px 250px 0px 250px;
 
     
 }
-
-
-p{
-    font-family: 'Anton', sans-serif;
+#clickici{
+    text-align: right;
+    padding: 50px 300px 0px  0px; 
+    
 }
 
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+}
 
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
                                                  
 

@@ -42,7 +42,7 @@ body {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 4px;
-  color:#9198e5;
+  color:rgb(146, 180, 245);
 }
 .form .input {
   margin-top: 40px;
@@ -66,7 +66,7 @@ body {
   outline: none;
   padding: 5px 15px;
   font-size: 18px;
-  border-bottom:1px solid #9198e5;
+  border-bottom:1px solid rgb(146, 180, 245);
 
 }
 .form .input .inputBox input[type="submit"] {
@@ -77,12 +77,12 @@ body {
   
 }
 .form .input .inputBox input[type="submit"]:active {
-  color: #9198e5;
+  color: rgb(146, 180, 245);
   margin-top: 20px;
   box-shadow:  2px 2px 6px rgba(0, 0, 0, 0.1);
 }
 .form .input .inputBox input::placeholder {
-  color: #bdcada;
+  color: rgb(146, 180, 245);
   font-size: 18px;
 }
 #forget {
@@ -91,7 +91,7 @@ body {
 }
 
 a{
-  color: #9198e5;
+  color: rgb(146, 180, 245);
 }
 
 #valider{
@@ -115,16 +115,17 @@ a{
   animation-name: app2;
   animation-duration: 2s;
   animation-fill-mode: forwards;
+  /* display: none; */
   }
   
   @keyframes app2 {
-    from   { transform:translateY(-500px); opacity: 0; }
+    from   { transform:translateY(800px); opacity: 0; }
     to     { transform:translateY(100px) ; opacity: 1; }
     
   }
   @keyframes appReverse2 {
-    from   { transform:translateY(100px) ; opacity: 1; }
-    to     { transform:translateY(-500px); opacity: 0; }
+    from   { transform:translateY(-800px) ; opacity: 1; }
+    to     { transform:translateY(100px); opacity: 0; }
     
   }
   

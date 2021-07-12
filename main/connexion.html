@@ -17,12 +17,15 @@
 
         $(document).ready(function(){
 
+            
+
             $("a").click(function(){
                 console.log("coucou");
                 
                 $(".form").css("animation", "appReverse 2s forwards");
                 
-                $(".form2").css("animation","appReserve2 2s forwards")
+                $("#form2").css("display","relative");
+                
 
             });
             
@@ -58,7 +61,7 @@
 
 
 
-        <!-- <div class="form2">
+        <div class="form2">
             <h2>Recuperation </h2>
             <div class="input2">
                 <div class="inputBox2">
@@ -71,11 +74,11 @@
                 <div class="inputBox2">
                     <input type="submit" value="Valider" id="valider2">
                 </div>
-                <p> vous receverez un mail bientot </p>
+                
             </div>
 
             
-        </div>  -->
+        </div> 
 
 
     
