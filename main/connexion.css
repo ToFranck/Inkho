@@ -8,8 +8,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background:linear-gradient(#0e1461,#000000 ) no-repeat center center fixed ;
-  
+ background:linear-gradient(#0e1461,#000000 ) no-repeat center center fixed ; 
+
 }
 .form {
   position: relative;

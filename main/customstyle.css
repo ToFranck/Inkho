@@ -1,0 +1,152 @@
+body{
+    height: 100%;
+    /*background:linear-gradient(#9198e5,#eeeaf1 ) no-repeat center center fixed ;*/
+    background:linear-gradient(#0e1461,#000000 ) no-repeat center center fixed ;
+    
+}
+
+    
+
+
+#inkho{
+    text-align: center; 
+    padding-top: 20px;
+    font-size: 60px;
+    color: rgb(146, 180, 245);
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.titre{
+    padding: 50px 200px 20px ;
+    font-size: 60px;
+    color: rgb(146, 180, 245);
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+
+/* Nav bar  */
+
+#main-menu .nav-bar { 
+    list-style:none; margin-top: 40px; 
+}
+
+#main-menu .nav-bar li { 
+    display:inline; 
+    padding:0 10px; 
+}
+
+#main-menu .nav-bar li a {
+    /* text-decoration: none; */
+    padding-left: 25px;
+    color: rgb(255, 255, 255);
+    /* text-shadow: 1px 1px 1px #eeeaf1; */
+    
+    
+}
+
+.nav-co{
+    float: right;
+    padding-top: 40px;
+    
+}
+
+
+#info{
+    color: rgb(146, 180, 245);
+    font-family: 'Oswald', sans-serif;
+    text-align:justify; 
+    padding: 100px 250px 0px 250px ;
+}
+
+    
+  /* Debut Gall */
+
+
+.container {
+	max-width: 1600rem;
+	margin: 0 auto;
+	padding: 50px 32px 32px;
+}
+
+.heading {
+	
+	font-size: 64px;
+	font-weight: 500;
+	line-height: 1.5;
+	text-align: center;
+	padding: 56px 0;
+	color: #1a1a1a;
+}
+
+.heading span {
+	display: block;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	/* Compensate for excess margin on outer gallery flex items */
+	margin: -16px -16px;
+}
+
+.gallery-item {
+	/* Minimum width of 24rem and grow to fit available space */
+	flex: 16px 0 384px;
+	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+	margin: 16px;
+	box-shadow: 5px 6px 6px rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+.gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+	transform: scale(1.15);
+}
+
+a{
+    text-decoration: none;
+}
+
+.containerimg {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: rgb(0, 0, 0) 1px 1px 10px;
+  }
+  
+.centered {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+/*
+
+The following rule will only run if your browser supports CSS grid.
+
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+
+*/
+
+@supports (display: grid) {
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(384px, 1fr));
+		grid-gap: 32px;
+	}
+
+	.gallery,
+	.gallery-item {
+		margin: 0;
+	}
+}
