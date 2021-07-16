@@ -1,4 +1,3 @@
-
 body{
     height: 100%;
     /*background:linear-gradient(#9198e5,#eeeaf1 ) no-repeat center center fixed ;*/
@@ -53,51 +52,57 @@ body{
     
 }
 
-/* Texte Info  */
-
-#txt-intro{
-    text-align:justify; 
-    padding: 100px 250px 0px 250px ;
-    /* padding-top: 100px; 
-    padding-left: 250px; 
-    padding-right: 250px; */
-
-    
-}
-
-.txt-exp{
-    text-align:justify; 
-    /* padding-top: 150px; 
-    padding-left: 250px; 
-    padding-right: 250px; */
-    padding: 50px 250px 0px 250px;
-
-    
-}
-#clickici{
-    text-align: right;
-    padding: 50px 300px 0px  0px; 
-    
-}
-
-p{
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(255, 255, 255);
-}
-
 a{
     text-decoration: none;
     /* color: rgb(255, 255, 255); */
 }
-                                                 
+                                          
 
-.t-news{
+
+
+
+
+
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
     font-size: 30px;
-    color: rgb(146, 180, 245);
-    font-family: 'Oswald', sans-serif;
+    text-align: center;
+  }
+  
+  .left {
+    /* background-color: #f1f1f1; */
+    padding: 10px;
+    flex: 50%;
+    position: relative;
+  }
+  
+  .right {
+    /* background-color: dodgerblue; */
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .container {
+      flex-direction: column;
+    }
 }
 
+.info{
+    text-align: left;
+    padding: 20px;
+}
+p{
+    color: white;
+    font-family:Montserrat; 
+}
+
+/* #map{
+    filter: blur(4px);
+} */
 
 
-    
-    
