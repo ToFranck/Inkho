@@ -11,7 +11,8 @@
     <!-- <script>
       if(!('CSS' in window) || !CSS.supports('color', 'var(--color-var)')) {var cfStyle = document.getElementById('codyframe');if(cfStyle) {var href = cfStyle.getAttribute('href');href = href.replace('style.css', 'style-fallback.css');cfStyle.setAttribute('href', href);}}
     </script> -->
-  
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,26 +21,27 @@
       <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
       
     <title>Acceuil | Inkho</title>
+
+    <script>
+         
+    </script>
+
   </head>
   <body>
   
     
-          <h1 id="inkho">Inkho</h1>
-                                  
-          <a href="connexion.html">
-            <img src="https://img.icons8.com/material/24/000000/user-male-circle--v1.png" class="nav-co">
-          </a>
-      
-          <nav id="main-menu">
-          <ul class="nav-bar">
-              <li class="nav-home"><a href="index.html">Accueil</a></li>
-              <li class="nav-services"><a href="lestyles.html">Style</a></li>
-              <li class="nav-products"><a href="index.html">News</a></li>
-              <li class="nav-products"><a href="#">Contact</a></li>
-          </ul>
-      </nav>
-  
-    
+        <nav>
+          <div class="logo">Inkho</div>
+          <div class="menu">
+            <ul>
+              <li><a href="index.html">Acceuil</a></li>
+              <li><a href="lestyles.html">Styles</a></li>
+              <li><a href="index.html">News</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        
 
     
       <div class="container">
@@ -52,9 +54,12 @@
 
         <div class="right">
           <h1>Nos Infos</h1>
-          <p class="info">Tel :</p>
+          <img src="https://img.icons8.com/fluent/48/000000/get-help.png"/>
+          <p id="tel"> 06 606 000 606</p>
+          <br>
 
-          <p class="info">Adresse mail :</p>
+          <img src="https://img.icons8.com/fluent/48/000000/apple-mail.png"/>
+          <p id="mail">Equipe@inkho.com</p>
         </div>
 
       </div>
