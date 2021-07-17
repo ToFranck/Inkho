@@ -1,0 +1,72 @@
+/*-------------------------------------- Body ------------------------------------------ */
+body{
+    height: 100%;
+    /*background:linear-gradient(#9198e5,#eeeaf1 ) no-repeat center center fixed ;*/
+    background:linear-gradient(#0e1461,#000000 ) no-repeat center center fixed ;
+    
+}
+
+ 
+
+ /*-------------------------------------- nav------------------------------------------ */
+ 
+#logo{
+    padding: 0;
+    font-size: 60px;
+    color: rgb(146, 180, 245);
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    padding-right: 50px;
+}
+
+
+
+nav {
+    /* background-color: grey; */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none
+}
+
+nav ul li {
+    padding: 50px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+nav ul li:hover {
+    
+}
+
+
+@media (max-width: 800px) {
+    nav ul {
+        /* height: 230px; */
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        padding: 20px 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        /* height: 230px; */
+        flex-direction: column;
+        text-align: center;
+    }
+    nav {
+        /* background-color: rgb(62, 109, 149); */
+    }
+    
+}
