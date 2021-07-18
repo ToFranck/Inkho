@@ -1,12 +1,35 @@
 /*-------------------------------------- Body ------------------------------------------ */
-body{
+body,body{
     height: 100%;
-    /*background:linear-gradient(#9198e5,#eeeaf1 ) no-repeat center center fixed ;*/
+    
     background:linear-gradient(#0e1461,#000000 ) no-repeat center center fixed ;
+
+    
+    margin: 0;
     
 }
 
- 
+ /* --------------------background blur-------------------- */
+* {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("https://mk0independanti6lhsy.kinstacdn.com/wp-content/uploads/ouvrir-un-salon-de-tatouage.jpg");
+    
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
  /*-------------------------------------- nav------------------------------------------ */
  
@@ -57,6 +80,9 @@ nav ul li:hover {
     nav ul li {
         padding: 20px 20px;
     }
+    h1{
+        padding-top:20px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -70,3 +96,23 @@ nav ul li:hover {
     }
     
 }
+
+p{
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+#info{
+    margin: 50px 70px 0px 70px  ;
+    text-align: center;
+}
+
+.img_resp {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    
+  }
