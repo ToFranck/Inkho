@@ -15,23 +15,23 @@
 
   <script>
 
-        $(document).ready(function(){
+        // $(document).ready(function(){
 
             
 
-            $("a").click(function(){
-                console.log("coucou");
+        //     $("a").click(function(){
+        //         console.log("coucou");
                 
-                $(".form").css("animation", "appReverse 2s forwards");
+        //         $(".form").css("animation", "appReverse 2s forwards");
                 
-                $("#form2").css("display","relative");
+        //         $("#form2").css("display","relative");
                 
 
-            });
+        //     });
             
             
 		
-            });
+        //     });
 
   </script>
 </head>
@@ -61,7 +61,7 @@
 
 
 
-        <div class="form2">
+        <!-- <div class="form2">
             <h2>Recuperation </h2>
             <div class="input2">
                 <div class="inputBox2">
@@ -78,7 +78,7 @@
             </div>
 
             
-        </div> 
+        </div>  -->
 
 
     

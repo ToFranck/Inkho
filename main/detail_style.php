@@ -30,10 +30,10 @@
         
           <ul>
             <li id="logo">Inkho</li>
-            <li><a href="index.html">Acceuil</a></li>
-            <li><a href="lestyles.html">Styles</a></li>
-            <li><a href="index.html">News</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.php">Acceuil</a></li>
+            <li><a href="lestyles.php">Styles</a></li>
+            <li><a href="index.php">News</a></li>
+            <li><a href="contact.php">Contact</a></li>
           </ul>
         
     </nav>

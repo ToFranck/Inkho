@@ -34,10 +34,11 @@
         
           <ul>
             <li id="logo">Inkho</li>
-            <li><a href="index.html">Acceuil</a></li>
-            <li><a href="lestyles.html">Styles</a></li>
-            <li><a href="index.html">News</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.php">Acceuil</a></li>
+            <li><a href="lestyles.php">Styles</a></li>
+            <li><a href="index.php">News</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="connexion.php">Co</a></li>
           </ul>
         
       </nav>
@@ -53,7 +54,7 @@
                   <!-- Presentation des styles  -->
           <div id="cont">
               <div class="banner container max-width-adaptive-lg radius-md overflow-hidden margin-top-xl">
-                  <a href="lestyles.html" class="text-decoration-none" aria-label="Shop Now">
+                  <a href="lestyles.php" class="text-decoration-none" aria-label="Shop Now">
                     <div class="grid flex-row-reverse@md">
                       <div class="col-6@md overflow-hidden" aria-hidden="true">
                         <div class="banner__figure width-100%" style="background-image: url(https://prmeng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2019/09/04/node_34374/32610089/public/2019/09/04/B9720792688Z.1_20190904183121_000%2BGBDECOF1B.1-0.jpg?itok=Hmeto5UX1567750711);"></div>
@@ -87,7 +88,7 @@
                       </div>
                     </div>
                   </a>
-                <!-- </div><p id="clickici"> <a href="lestyles.html">Click ici pour retrouver plus de style </a></p> -->
+                <!-- </div><p id="clickici"> <a href="lestyles.php">Click ici pour retrouver plus de style </a></p> -->
             </div>
 
 

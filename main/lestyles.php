@@ -27,16 +27,16 @@
 
   <h1 id="inkho">Inkho</h1>
                                 
-  <a href="connexion.html">
+  <a href="connexion.php">
     <img src="https://img.icons8.com/material/24/000000/user-male-circle--v1.png" class="nav-co">
   </a>
 
   <nav id="main-menu">
   <ul class="nav-bar">
-      <li class="nav-home"><a href="index.html">Accueil</a></li>
-      <li class="nav-services"><a href="lestyles.html">Style</a></li>
-      <li class="nav-products"><a href="news.html">News</a></li>
-      <li class="nav-products"><a href="contact.html">Contact</a></li>
+      <li class="nav-home"><a href="index.php">Accueil</a></li>
+      <li class="nav-services"><a href="lestyles.php">Style</a></li>
+      <li class="nav-products"><a href="news.php">News</a></li>
+      <li class="nav-products"><a href="contact.php">Contact</a></li>
   </ul>
 </nav>
     <p id="info">Il est parfois difficile de se retrouver dans les différents styles de tatouage, qui sont aujourd’hui riches et multiples. Dans le temps, se faire tatouer était    une démarche assez simple : le choix des motifs et des couleurs était limité, et se faisait généralement dans un catalogue de petits dessins déjà préparés que l’on appelle des « flashs ». L’acte de se faire tatouer était parfois plus significatif que le motif en lui-même, le tatouage étant à l’époque réservé à quelques marginaux.
@@ -49,7 +49,7 @@
     <div class="gallery">
   
       <div class="gallery-item containerimg">
-        <a href="detail_style.html">
+        <a href="detail_style.php">
         <img class="gallery-image" src="https://www.thoughtco.com/thmb/9z7haWmiMz_MEURldraBBzg5oos=/5157x2901/smart/filters:no_upscale()/maori-activist-tame-iti-with-traditional-moko-tattoo-539055142-57cad4da5f9b5829f4d38b1b.jpg" ></a>
         <div class="centered">Maori et Polynésien</div>
       </div>
