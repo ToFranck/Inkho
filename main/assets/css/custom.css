@@ -1,0 +1,100 @@
+
+body{
+    height: 100%;
+    background:linear-gradient(#0e1461,#000000 ) no-repeat center center fixed ; 
+    
+    
+}
+
+ 
+.titre{
+    padding: 50px 300px 5px ;
+    font-size: 30px;
+    color: rgb(146, 180, 245);
+    font-family: 'Oswald', sans-serif;
+    
+    
+}
+/* Texte Info  */
+
+#txt-intro{
+    text-align:center; 
+    padding: 100px 250px 0px 250px ;
+  
+
+    
+}
+
+.txt-exp{
+    text-align:center; 
+   
+    padding: 50px 250px 0px 250px;
+
+    
+}
+
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+                                      
+
+.t-news{
+    font-size: 30px;
+    color: rgb(146, 180, 245);
+    font-family: 'Oswald', sans-serif;
+}
+
+
+@media (max-width: 800px) {
+    .titre {
+        padding: 50px  ;
+      
+    }
+
+}
+
+ /*-------------------------------------- Test Pop Up ------------------------------------------ */
+
+ 
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0); 
+    
+  }
+  
+  
+  .modal-content {
+    background:linear-gradient(#0e1461,#000000 ) no-repeat center center fixed ;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  

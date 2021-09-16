@@ -1,3 +1,9 @@
+<?php
+
+  session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +13,7 @@
 
     <script>document.getElementsByTagName("html")[0].className += " js";</script>
     <link id="codyframe" rel="stylesheet" href="assets/css/style.css">
-    <link href="detail_style.css" rel="stylesheet">
+    <link href="assets/css/detail_style.css" rel="stylesheet">
     <!-- Uncomment the script below if you need to support browsers where CSS Variables have not been implemented (e.g., IE11) -->
     <!-- <script>
     if(!('CSS' in window) || !CSS.supports('color', 'var(--color-var)')) {var cfStyle = document.getElementById('codyframe');if(cfStyle) {var href = cfStyle.getAttribute('href');href = href.replace('style.css', 'style-fallback.css');cfStyle.setAttribute('href', href);}}
@@ -23,20 +29,12 @@
 </head>
 <body>
     
-  <div class="bg-image"></div>
 
-    <nav>
-        
-        
-          <ul>
-            <li id="logo">Inkho</li>
-            <li><a href="index.php">Acceuil</a></li>
-            <li><a href="lestyles.php">Styles</a></li>
-            <li><a href="index.php">News</a></li>
-            <li><a href="contact.php">Contact</a></li>
-          </ul>
-        
-    </nav>
+      <?php
+          include 'header.php';
+      ?>
+
+  
 
       <h1>Titre du style</h1>
       <hr style="height:2px;border-width:0;background-color:rgb(146, 180, 245);margin: 20px 50px 0px 50px; ">
@@ -46,13 +44,75 @@
 
         </p>
       </div>
-      <div id="minigal">
-        <img src="https://g5q6c9s3.rocketcdn.me/wp-content/uploads/2021/03/creme-tatouage.jpg" class="img_resp" width="500" height="400">
-        <img src="https://g5q6c9s3.rocketcdn.me/wp-content/uploads/2021/03/creme-tatouage.jpg" class="img_resp" width="500" height="400">
-        <img src="https://g5q6c9s3.rocketcdn.me/wp-content/uploads/2021/03/creme-tatouage.jpg" class="img_resp" width="500" height="400">
-        <img src="https://g5q6c9s3.rocketcdn.me/wp-content/uploads/2021/03/creme-tatouage.jpg" class="img_resp" width="500" height="400">
-      </div>
     
+
+     <div class="container">
+        <div class="wrap">
+            <div class="gallery">
+                <figure class="gallery__item gallery__item--1">
+                    <a href="#img1">
+                        <img src="https://images.unsplash.com/photo-1574270981993-f1df213562b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="01" class="gallery__img">
+                    </a>
+                    <div class="lightbox" id="img1">
+                        <img src="https://images.unsplash.com/photo-1574270981993-f1df213562b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                        <a href="#_" class="btn-close">&times;</a>
+                    </div>
+                </figure>
+
+                <figure class="gallery__item gallery__item--2">
+                    <a href="#img2">
+                        <img src="https://images.unsplash.com/photo-1573743338941-39db12ef9b64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="02" class="gallery__img">
+                    </a>
+                    <div class="lightbox" id="img2">
+                        <img src="https://images.unsplash.com/photo-1573743338941-39db12ef9b64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                        <a href="#_" class="btn-close">&times;</a>
+                    </div>
+                </figure>
+
+                <figure class="gallery__item gallery__item--3">
+                    <a href="#img3">
+                        <img src="https://images.unsplash.com/photo-1572295727871-7638149ea3d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="03" class="gallery__img">
+                    </a>
+                    <div class="lightbox" id="img3">
+                        <img src="https://images.unsplash.com/photo-1572295727871-7638149ea3d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                        <a href="#_" class="btn-close">&times;</a>
+                    </div>
+                </figure>
+
+                <figure class="gallery__item gallery__item--4">
+                    <a href="#img4">
+                        <img src="https://images.unsplash.com/photo-1571680719972-f18bb57077cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="04" class="gallery__img">
+                    </a>
+                    <div class="lightbox" id="img4">
+                        <img src="https://images.unsplash.com/photo-1571680719972-f18bb57077cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                        <a href="#_" class="btn-close">&times;</a>
+                    </div>
+                </figure>
+
+                <figure class="gallery__item gallery__item--5">
+                    <a href="#img5">
+                        <img src="https://images.unsplash.com/photo-1571586100127-cdaef780fc61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="05" class="gallery__img">
+                    </a>
+                    <div class="lightbox" id="img5">
+                        <img src="https://images.unsplash.com/photo-1571586100127-cdaef780fc61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                        <a href="#_" class="btn-close">&times;</a>
+                    </div>
+                </figure>
+
+                <figure class="gallery__item gallery__item--6">
+                    <a href="#img6">
+                        <img src="https://images.unsplash.com/photo-1568473648251-3a0c3aa56192?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="06" class="gallery__img">
+                    </a>
+                    <div class="lightbox" id="img6">
+                        <img src="https://images.unsplash.com/photo-1568473648251-3a0c3aa56192?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                        <a href="#" class="btn-close">&times;</a>
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <br>
 
       <section class="team-v2">
         <div class="container max-width-adaptive-lg">
@@ -69,8 +129,8 @@
                 </figure>
         
                 <div class="user-cell__content text-component line-height-sm v-space-xxs">
-                  <p><a href="#0" class="color-contrast-high"><strong>User Name</strong></a></p>
-                  <p class="color-contrast-medium">Web Design</p>
+                  <p><a href="profil.php" class="color-contrast-high"><strong>User Name</strong></a></p>
+                  <p class="color-contrast-medium">Tatoueur</p>
                 </div>
               </div>
       

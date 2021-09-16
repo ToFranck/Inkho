@@ -7,12 +7,12 @@
 
   img {
     display: block;
-    width: 64px;
+    width: 150px;
   }
 }
 
 @include breakpoint(md) {
   .feature-v7__item img {
-    width: 128px;
+    width: 250px;
   }
 }

@@ -1,0 +1,33 @@
+/*-------------------------------------- Body ------------------------------------------ */
+body{
+    
+  
+  
+  background:linear-gradient(#0e1461,#000000 ) no-repeat center center fixed ; 
+
+ 
+}
+
+ 
+
+
+/*-------------------Form---------------*/
+
+form{
+  margin-right: auto;
+  margin-left: auto
+}
+
+p{
+  color: aliceblue;
+}
+
+label{
+  color: aliceblue;
+}
+
+
+.erreur{
+  text-align: center;
+  color: red;
+}
